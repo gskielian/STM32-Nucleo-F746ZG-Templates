@@ -36,7 +36,6 @@
 
 /* USER CODE BEGIN Includes */
 //declare the function prototypes
-void Delay(__IO uint32_t cnt);
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
