@@ -10,7 +10,7 @@ File > Import > General > Existing Projects into Workspace, and select this repo
 # Checkpoints kept as different branches
 Will be keeping checkpoints available as different branches, which makes learning implementation as easy as:
 
-`git diff vanilla_branch...blink_leds`
+`git diff vanilla_branch..blink_leds`
 
 where vanilla branch will be the most basic branch.
 
