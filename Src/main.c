@@ -34,11 +34,6 @@
 #include "stm32f7xx_hal.h"
 #include "gpio.h"
 
-/* USER CODE BEGIN Includes */
-//declare the function prototypes
-void Delay(__IO uint32_t cnt);
-/* USER CODE END Includes */
-
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
@@ -87,10 +82,7 @@ int main(void)
 	/* Infinite loop */
 	/* USER CODE BEGIN WHILE */
 	while (1){
-		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_SET);
-		HAL_Delay(50);
-		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_RESET);
-		HAL_Delay(50);
+          //place user code here
 	}
 	/* USER CODE END 3 */
 
