@@ -87,10 +87,13 @@ int main(void)
 	/* Infinite loop */
 	/* USER CODE BEGIN WHILE */
 	while (1){
+		if(HAL_GPIO_ReadPin(User_Blue_Button_GPIO_Port,User_Blue_Button_Pin)) {
+
 		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_SET);
-		HAL_Delay(50);
+		HAL_Delay(500);
 		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_RESET);
-		HAL_Delay(50);
+		HAL_Delay(500);
+		}
 	}
 	/* USER CODE END 3 */
 
